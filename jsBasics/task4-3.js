@@ -10,4 +10,4 @@ let height = 15;
 let cylinderVolume = Math.PI * Math.pow(radius, 2) * height;
 
 //Округліть кожне отримане значення до 2 значень після крапки -- чому кожне, якшо воно одне?
-console.log(cylinderVolume.toFixed(2)); 
+console.log(cylinderVolume.toFixed(2));
