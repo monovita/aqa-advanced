@@ -1,6 +1,6 @@
 function txtInTime (text, time){
     const timerId = setTimeout(() => {
-        console.log(text)
+        console.log(text);
     }, time);
     return timerId;
 }

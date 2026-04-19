@@ -23,14 +23,14 @@ const promisesCollection = [todosCall(), usersCall()];
 const promiseAll = () => { 
 Promise.all(promisesCollection)
   .then(([todo, user]) => console.log('All Fulfilled:', todo, user))
-  .catch(x => console.log('All Rejected: ', x))
-}
+  .catch(x => console.log('All Rejected: ', x));
+};
 
 const promiseRace = () => { 
 Promise.race(promisesCollection)
   .then(x => console.log('Race Fulfilled: ', x))
-  .catch(x => console.log('Race Rejected: ', x))
-}
+  .catch(x => console.log('Race Rejected: ', x));
+};
 
 promiseAll();
 promiseRace();
