@@ -5,19 +5,19 @@ let negativeCount = 0;
 let zeroCount = 0;
 
 for (let i = 0; i <= numbers.length; i++) {
-    switch(true) {
-        case numbers[i] > 0:
-            positiveCount++;
-            break;
-        case numbers[i] < 0:
-            negativeCount++;
-            break;
-        case numbers[i] === 0:
-            zeroCount++;
-            break;
-        default:
-            console.log('Please enter valid parameters');
-    }
+	switch (true) {
+		case numbers[i] > 0:
+			positiveCount++;
+			break;
+		case numbers[i] < 0:
+			negativeCount++;
+			break;
+		case numbers[i] === 0:
+			zeroCount++;
+			break;
+		default:
+			console.log('Please enter valid parameters');
+	}
 }
 
 console.log(`Кількість позитивних чисел: ${positiveCount}

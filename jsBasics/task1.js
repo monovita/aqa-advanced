@@ -1,18 +1,18 @@
 // Завдання 1: Оголошення змінних для примітивних типів
 
-//Створіть програму, в якій ви оголосите змінні для кожного з примітивних типів даних: 
-// рядок, 
-let stringExample; 
-// число, 
+//Створіть програму, в якій ви оголосите змінні для кожного з примітивних типів даних:
+// рядок,
+let stringExample;
+// число,
 let numberExample;
-//буль, 
+//буль,
 let isBooleanExample;
-// null 
+// null
 let nullExample;
-// та undefined. 
+// та undefined.
 let undefinedExample;
-// Присвойте їм значення 
-stringExample = "test";
+// Присвойте їм значення
+stringExample = 'test';
 numberExample = 123;
 isBooleanExample = true;
 nullExample = null;
